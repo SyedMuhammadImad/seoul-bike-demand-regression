@@ -1,0 +1,61 @@
+{
+  "dataset": "UCI Seoul Bike Sharing Demand",
+  "scope": "Noon demand estimation using same-hour weather; no future weather forecasting claim",
+  "split": "chronological 60/20/20; test never used for training/selection",
+  "train": 219,
+  "validation": 73,
+  "test": 73,
+  "features": [
+    "Temperature",
+    "Humidity(%)",
+    "Wind speed (m/s)",
+    "Visibility (10m)",
+    "Dew point temperature",
+    "Solar Radiation (MJ/m2)",
+    "Rainfall(mm)",
+    "Snowfall (cm)",
+    "Functioning Day"
+  ],
+  "date_ranges": [
+    [
+      "2017-12-01",
+      "2018-07-07"
+    ],
+    [
+      "2018-07-08",
+      "2018-09-18"
+    ],
+    [
+      "2018-09-19",
+      "2018-11-30"
+    ]
+  ],
+  "models": {
+    "TemperatureOnly": {
+      "MAE": 373.67967449189854,
+      "RMSE": 460.1796565615163,
+      "R2": -0.0188976793555653
+    },
+    "AllFeatures": {
+      "MAE": 199.6478778540664,
+      "RMSE": 234.5244307798545,
+      "R2": 0.7353621723232966
+    },
+    "NeuralNetwork": {
+      "MAE": 331.04289433727524,
+      "RMSE": 363.5455134656798,
+      "R2": 0.36409341751696467,
+      "training": {
+        "epochs": 24,
+        "best_validation_loss": 0.30251938104629517,
+        "target_scale": 451.64851319913595,
+        "target_mean": 638.9360730593608
+      }
+    },
+    "TrainingMeanBaseline": {
+      "MAE": 411.5922937386626,
+      "RMSE": 477.63663995310463,
+      "R2": -0.09766801858356611
+    }
+  }
+}
