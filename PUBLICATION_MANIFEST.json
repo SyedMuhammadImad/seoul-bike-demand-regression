@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "title": "Seoul bike demand regression notebook",
   "completion_gate_passed": true,
   "files": [
@@ -10,8 +10,8 @@
     },
     {
       "path": "experiment.py",
-      "sha256": "6511e8791344d855de71d9fe3a600b6c0c51bb2c01b4ebf63e30580ba1e46b54",
-      "bytes": 4939
+      "sha256": "8741eeb4c51d4769ed8392bfa854ac30c51cc7fdcfe84ed83b11b3604032f6ce",
+      "bytes": 4943
     },
     {
       "path": "metrics.json",
@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "0fc2bdf39143c21860ccdc981233060b8bd0d4d8b52c0651ded776cbba05231f",
-      "bytes": 560
+      "sha256": "fd5b72a71da16a538d4bfa88f5b30156e5cd38066f4ff26b4b51a1ec0b391002",
+      "bytes": 571
     },
     {
       "path": "requirements.txt",
@@ -30,13 +30,13 @@
     },
     {
       "path": "seoul_dataset.ipynb",
-      "sha256": "95704e9661f60cdeaca0683f72805e5152bc9ebcdf30e4cbe09bbe2193e88802",
-      "bytes": 1835
+      "sha256": "080240a76cc85c1ba5d6edddc97e38620ae14bfa578b1422a9728ed848ddbdaa",
+      "bytes": 1845
     },
     {
       "path": "VERIFICATION.json",
-      "sha256": "dd7fa940d455e43c9c6c2e4e6f2f32cbf8d994bc8727834f8e3f745f0eedac3b",
-      "bytes": 755
+      "sha256": "d2ce97b2207cc17823c46e8a315ff7a060e3af663ad2d4f1d2ed3abb937f2e91",
+      "bytes": 763
     }
   ]
 }
